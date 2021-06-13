@@ -1,0 +1,108 @@
+*
+{
+	padding:0;
+	margin :0;
+}
+
+
+header
+{	
+	overflow:hidden;
+	width:100%;
+	/* font-family : century gothic; */
+	padding-bottom : 0px;
+	color : white;
+	background-color : #5ddc7a	;
+	padding-left:10px;
+	text-align:center;
+	position:fixed;
+	top:0;
+	z-index:1;
+
+}
+header h1
+{
+	font-size:50px;
+	font-weight:bold;
+}
+header h1 small
+{	
+	padding-right : 10px;
+	padding-top : 50px;
+	/* font-family : century gothic; */
+	font-size:20px;
+	text-align : right;
+	color : green;
+	
+}
+
+.btn-group-lg button a
+{	padding : 0;
+	color : white;
+	text-decoration : none;
+	
+}
+.btn-group-md button a
+{	padding : 0;
+	color : white;
+	text-decoration : none;
+	padding:0;
+}
+.btn-group-sm button a
+{	padding : 0;
+	color : white;
+	text-decoration : none;
+	padding:0;
+}
+
+.button-naves
+{	padding-top : 0px;;
+	text-align : right;
+}
+
+
+
+
+
+
+@media only screen and ( max-width : 800px ){
+	body
+	{ 
+	}
+	header h1
+	{
+		font-size:30px;
+	}
+	header h1 small{font-size:15px;text-align:left;}
+	html{font-family:Ariel;}
+	.btn-group-sm{float:left;}
+	
+
+
+.navbar-nav a:hover
+{	color:tomato;
+	background:green;
+	color:black;
+	
+	font-size:15px;
+	
+	
+}
+.intro div{
+	font-size:50%;
+}
+
+}
+
+
+.footer
+{
+	background:green;
+	color:white;
+	padding:20px;
+	padding-top : 20px;
+	width:100%;
+	
+	padding-top : 20px;
+
+}

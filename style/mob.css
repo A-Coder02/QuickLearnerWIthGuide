@@ -1,0 +1,41 @@
+.mob{
+	display:block;
+}
+.butresp{
+	display:none;
+}
+.footer{
+	padding-bottom:40px;
+}
+
+@media only screen and ( max-width : 800px )
+
+{
+	.mob
+	{
+		display:none;
+	}
+	.section
+	{
+		margin-top:40px;
+	}
+	.butresp
+	{	padding:2px;
+		display:block;
+		width:100%;
+		position:fixed;
+		bottom:0px;
+		left:0px;
+		right:0px;
+		background:#46c346;
+		filter:opacity(0.94	);
+		  display: flex;
+  justify-content: center;
+  color:white;
+		
+	}
+.butresp a{border:.1px #46c346 solid;text-decoration:none;color:white;display:inline;padding:6px 8px 5px 8px;border-radius:10px 10px 10px 10px;}
+.butresp a:hover{border:.1px #46c346 solid;background:#2e8a2e;text-decoration:none;color:white;display:inline;padding:6px 8px 5px 8px;transition:0.5s;border-radius:10px 10px 10px 10px;}
+.butresp a:active{border:.1px white solid;text-decoration:none;color:white;display:inline;padding:6px 8px 5px 8px;transition:0.1s;border-radius:10px 10px 10px 10px;}
+
+}

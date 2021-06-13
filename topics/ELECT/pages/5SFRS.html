@@ -1,0 +1,224 @@
+	<!DOCTYPE! html>
+
+<html>
+<head>
+<link rel="stylesheet" href="style/style.css">
+		<link rel="stylesheet" href="style/pages.css">
+		<link rel="stylesheet" href="style/responsive.css">
+		<link rel="stylesheet" href="link/bootstrap/css/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<!-- Sams link -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+<script src="script/pages.js"></script>
+	<!-- ADDSENNSE -->
+			<script data-ad-client="ca-pub-8350557131344666" async 
+			src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+
+
+
+
+
+
+
+
+	<body>
+
+
+	<header style="position:fixed;top:0px;width:100%;">
+	<h1 class="header">QuickLearner<small> <b>BETA</b></small>	</h1>	
+				
+				<!-- For Button Tabs -->
+				<div class="mob">
+				<div class=" btn-group-md btn-group-sm btn-group-lg">
+					<button type="button" class="btn btn-success"><a href="#"><i class="fas fa-home"></i>Home</a></button>
+					<button type="button" class="btn btn-success"><a href="#"><i class="fas fa-diagnoses"></i>Quizes</a></button>
+					<button type="button" class="btn btn-success"><a href="#"><i class="fas fa-book"></i>Books</a></button>
+					<button type="button" class="btn btn-success"><a href="#"><i class="fas fa-address-card"></i>About us</a></button>
+					
+				</div>
+				</div>
+	</header>	
+	<div class="backtmenu">
+	<a href="file:///D:/aRBAj/_Official/topics/ELECT/ELECT.html"><i class='fas fa-chevron-left'></i></a>
+	</div>
+	<div class="mainmenu" id="last">
+	<a onclick="functiHS()" ><i class='fas fa-chevron-circle-down'></i></a>
+	</div>
+	<div class="mainmenu1" id="last1">
+	<a onclick="functiHS1()" ><i class='fas fa-chevron-circle-up'></i></a>
+	</div>
+	<div class="subjects" id="subjects">
+	<div class="">
+	<ul>
+		<li>WEB DEVOLOPMENT</li>
+		<li>APP DEVOLOPMENT</li>
+		<li>DATA STRUCURE & ALGORITHM</li>
+		<li>ELECTRONICS</li>
+	</ul>
+	</div>
+	</div>
+	
+	
+	
+	<div class="navc" id="bu1"><a onclick="functi()"><i class='fas fa-chevron-right'></i></a></div>
+	<div class="navc1" id="bu2"><a onclick="functiR()"><i class='fas fa-chevron-left'></i></a></div>
+<div class="sidebar" id="demo1">
+	
+	<div class="navlinks" id="demo">
+	<h3>1.1 Basics Of Microcontroller & Microprocessor<hr></h3>
+				<a href="1microcontroller.html">Microcontroller</a>
+				<a href="2microprocessor.html" >Microprocessor </a>
+				<a href="3.diff1and2.html">Difference between Microcontroller & Microprocessor </a>
+				<h3>1.2 About 8051</p><hr></h3>
+				<a href="4archi.html">Block diagram Architecture of 8051 Microcontroller</a>
+				<a href="5SFRS.html">SFRS</a>
+				<a href="#">Pin functions</a>
+				<a href="#">I/O ports & Opreation</a>
+				<a href="#">External Memory Interface</a>	
+				<h3>Quizes</p><hr></h3>	
+				<a href="#">1.1 Basics Of Microcontroller & Microprocessor</a>
+				<a href="#">1.2 About 8051</a></h3>	
+				<p style="padding-bottom:200px;"></p>
+	</div>			
+	</div>
+
+	<main class="article main" >
+	<div class="thumbnail img-thumbnail">
+	<article>
+	     <h1>SFRS(Special Function Registers)</h1>
+		 <p>
+		 SFRs act as a control table that monitor and control opreation of the 8051 
+		 microcontroller.in internal RAM structure,the address space from 80H to FFH is 
+		 allocated to SFRs.Out of these 128 memry location
+		 Out of these 128 Memory Locations (80H to FFH), there are only 21 locations
+		 that are actually assigned to SFRs. Each SFR has one Byte Address and also a unique name 
+		 which specifies its purpose.
+		 <div class="images5">
+		 <img src="https://www.electronicshub.org/wp-content/uploads/2017/11/8051-Microcontroller-Special-Function-Registers-SFRs-Image-2.jpg">
+		 </div>
+1)<b>Math or CPU Registers: A and B</b>:. The Accumulator is used to hold the data for almost all the ALU Operations.
+Some of the operations where the Accumulator is used are:
+<ul>
+<li>Arithmetic Operations like Addition, Subtraction, Multiplication etc.</li>
+<li>Logical Operations like AND, OR, NOT etc.</li>
+<li>Data Transfer Operations (between 8051 and External Memory)</li>
+The name “Accumulator” came from the fact this register is used to accumulate (or store) 
+the result of all Arithmetic and most of the Logical Operations.
+<br>
+2)<b>Status Register: PSW (Program Status Word)</b>The PSW or Program Status Word
+ Register is also called as Flag Register and is one of the important SFRs. The
+ PSW Register consists of Flag Bits, which help the programmer in checking the 
+ condition of the result and also make decisions.
+Flags are 1-bit storage elements that store and indicate the nature of the result 
+that is generated by execution of certain instructions. The following image shows 
+the contents of the PSW Register.<br>
+<div class="images5">
+<img src="https://www.electronicshub.org/wp-content/uploads/2017/11/8051-Microcontroller-Special-Function-Registers-SFRs-Image-5.jpg">
+</div>
+<br>
+<div class="images5">
+<img src="https://www.electronicshub.org/wp-content/uploads/2017/11/8051-Microcontroller-Special-Function-Registers-SFRs-Image-6.jpg">
+</div>
+<br>
+3)<b>Pointer Registers: DPTR (Data Pointer – DPL, DPH) and SP (Stack Pointer)</b>The 
+Data Pointer is a 16-bit Register and is physically the combination of DPL (Data 
+Pointer Low) and DPH (Data Pointer High) SFRs. The Data Pointer can be used as a 
+single 16-bit register (as DPTR) or two 8-bit registers (as DPL and DPH).
+DPTR doesn’t have a physical Memory Address but the DPL (Lower Byte of DPTR) and 
+DPH (Higher Byte of DPTR) have separate addresses in the SFR Memory Space. DPL 
+= 82H and DPH = 83H.
+The DPTR Register is used by the programmer addressing external memory (Program
+ – ROM or Data – RAM).<br>
+ <div class="images5">
+ <img src="https://www.electronicshub.org/wp-content/uploads/2017/11/8051-Microcontroller-Special-Function-Registers-SFRs-Image-7_1.jpg">
+ </div>
+ <br>
+SP or Stack Pointer points out to the top of the Stack and it indicates the next
+ data to be accessed. Stack Pointer can be accesses using PUSH, POP, CALL and RET 
+ Instructions. The Stack Pointer is an 8-bit register and upon reset, the Stack 
+ Pointer is initialized with 07H.When writing a new data byte into the stack,
+ the SP (Stack Pointer) is automatically
+ incremented by 1 and the new data is written at an address SP+1. When reading data 
+ from stack, the data is retrieved from the Address in SP and after that the SP is 
+ decremented by 1 (SP-1).<br>
+ <div class="images5"><img src="https://www.electronicshub.org/wp-content/uploads/2017/11/8051-Microcontroller-Special-Function-Registers-SFRs-Image-8_1.jpg">
+</div>
+<br>
+4)<b>I/O Port Latches: P0 (Port 0), P1 (Port 1), P2 (Port 2) and P3 (Port 3)</b>
+The 8051 Microcontroller four Ports which can be used as Input and/or Output.
+ These four ports are P0, P1, P2 and P3. Each Port has a corresponding register
+ with same names (the Port Registers are also P0, P1, P2 and P3). The addresses of the Port Registers are as follows:
+ P0 - 80H, P1 - 90H, P2 - A0H and P2 - B0H.<br>
+Each bit in these SFRs corresponds to one physical Pin in the 8051 Microcontroller.
+ All these Port Registers are both Bit Addressable and Byte Addressable. Writing 1 
+ or 0 on a Port Register Bit will reflect as an appropriate voltage (5V and 0V) on the corresponding Pin.
+If a Port Bit is SET (declared as 1), the corresponding Port Pin will be configured
+ as Input and similarly if a Port Bit is CLEARED (declared as 0), the corresponding
+ Port Pin is configured as Output. Upon reset, all the Port Bits are SET (1) and hence,
+ all the Port Pins are configured as Inputs.
+ <div class="images5">
+<img src="https://www.electronicshub.org/wp-content/uploads/2017/11/8051-Microcontroller-Special-Function-Registers-SFRs-Image-9_1.jpg">
+</div>
+<br>
+5)<b>Peripheral Control Registers: PCON, SCON, TCON, TMOD, IE and IP:</b>(we wil discuss in next chap)
+<br>
+6)<b>Peripheral Data Registers: TL0, TH0, TL1, TH1 and SBUF:</b>(we wil discuss in next chap)
+<br>
+		 </p>
+		 
+		
+	</article>
+	</div>
+	
+	</main>
+
+
+	</body>
+
+	<footer class="footer">
+			<p>This is a TRIAL version of our website.
+				send your feedback on </p>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<ul type="none">
+						<li>email: <a>arbaj897ansari@gmail.com</a><li>
+						<li>mobile number: <a>+91 8975048440</a><li>
+						<li><a></a><li>
+						<li><a></a><li>
+					</ul>
+				</div>
+			<div class="col-md-4 col-sm-6">
+					
+				</div>
+			</div>
+	</footer>
+<div class="butresp">
+	<div class=" btn btn-group btn-group-md btn-group-sm btn-group-lg ">
+		
+		
+		<button type="button" class="btn btn-success"><a href="#"><i class="fas fa-home fa-2x	"></i></a></button>
+		<button type="button" class="btn btn-success"><a href="#"><i class="fas fa-diagnoses fa-2x"></i></a></button>
+		<button type="button" class="btn btn-success"><a href="#"><i class="fas fa-book fa-2x"></i></a></button>
+		<button type="button" class="btn btn-success"><a href="#"><i class="fas fa-address-card fa-2x"></i></a></button>
+		
+		
+	</div>	
+	</div>
+</html>
+
+
+
+<style>
+
+ul{
+list-style-position:inside;}
+
+
+</style>

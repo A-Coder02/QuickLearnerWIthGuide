@@ -1,0 +1,60 @@
+.intro
+{
+	height:100%;
+	width:100%;
+	background:black;
+	position:fixed;
+	top:0;
+	left:100%;
+	color:white;
+	z-index:10;
+	text-align:center;
+	padding-top:250px;
+	font-size:100px;
+	animation-name:intro;
+	animation-duration:2s;
+	
+	margin:0px;
+	filter:opacity(1.0);
+	
+	
+}
+
+@keyframes intro
+{
+	0%{
+		filter:opacity(1.0);left:0%;
+		
+	}
+	50%{
+		filter:opacity(1.0);left:0%;
+		
+	
+	100%{
+		
+		filter:opacity(1.0);left:100%;
+	}
+}
+.spinner-border{
+	animation-name:ww;animation-duration:5s;
+}
+@keyframes ww{
+	0%{
+		filter:opacity(1.0);
+	}
+	20%{ 
+		filter:opacity(1.0);
+		
+	}
+	40%{
+		filter:opacity(1.0);
+	}
+	60%{
+		filter:opacity(1.0);
+	}
+	100%{
+		
+		filter:opacity(1.0);
+	}
+	
+}

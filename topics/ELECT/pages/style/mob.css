@@ -1,0 +1,34 @@
+.mob{
+	display:block;
+}
+.butresp{
+	display:none;
+}
+.footer{
+	padding-bottom:40px;
+}
+
+@media only screen and ( max-width : 800px )
+
+{
+	.mob
+	{
+		display:none;
+	}
+	
+	.butresp
+	{	padding:2px;
+		display:block;
+		width:100%;
+		position:fixed;
+		bottom:0px;
+		left:0px;
+		right:0px;
+		background:green;
+		filter:opacity(0.94	);
+		  display: flex;
+  justify-content: center;
+		
+	}
+	.butresp a{text-decoration:none;}
+}

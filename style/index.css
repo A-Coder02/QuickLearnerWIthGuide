@@ -1,0 +1,136 @@
+	
+.btn-group-lg button a
+{	padding : 0;
+	color : white;
+	text-decoration : none;
+	
+}
+.btn-group-md button a
+{	padding : 0;
+	color : white;
+	text-decoration : none;
+	padding:0;
+}
+.btn-group-sm button a
+{	padding : 0;
+	color : white;
+	text-decoration : none;
+	padding:0;
+}
+
+.button-naves
+{	padding-top : 0px;;
+	text-align : right;
+}
+
+navbar-nav a:hover
+{	
+	background:green;
+	color:black;
+	
+	font-size:15px;
+	
+	
+}
+.article{
+	margin-top:100px;
+	
+}
+.article .container
+{
+	PADDING:10PX 5PX 10PX 5PX;
+	
+	
+	
+	
+}/* WEB */
+.WEB
+{	PADDING:10PX 5PX 10PX 5PX;
+	border:2px #ca62c7  solid;
+	border-radius:0px 10px 10px 0px;
+	
+}
+.WEB .btn
+{
+	background:#ca62c7;
+	border:#ca62c7 1px solid;
+}
+.WEB .btn:hover
+{
+	background:#8c3f89;
+	border:#8c3f89 1px solid;
+}
+
+.WEB .btn:visited
+{
+	background:#8c3f89;
+	border:#8c3f89 1px solid;
+}
+.WEB .btn:link
+{
+	background:#8c3f89;
+	border:#8c3f89 1px solid;
+}
+		/* elec */
+		
+.ELECT
+{	PADDING:10PX 5PX 10PX 5PX;
+	border:2px #ca62c7  solid;
+	border-radius:0px 10px 10px 0px;
+	
+	
+}
+
+.ELECT .btn
+{
+	background:#ca62c7;
+	border:#ca62c7 1px solid;
+}
+.ELECT .btn:hover
+{
+	background:#8c3f89;
+	border:#8c3f89 1px solid;
+}
+
+.ELECT .btn:visited
+{
+	background:#8c3f89;
+	border:#8c3f89 1px solid;
+}
+.ELECT .btn:link
+{
+	background:#8c3f89;
+	border:#8c3f89 1px solid;
+}
+
+		/* app */
+.APP
+{	PADDING:10PX 5PX 10PX 5PX;
+	border:2px #0069d9 solid;
+	border-radius:0px 10px 10px 0px;
+}
+
+		/* DAA */
+.DAA
+{	PADDING:10PX 5PX 10PX 5PX;
+	border:2px #ffc107 solid;
+	border-radius:0px 10px 10px 0px;
+}
+
+main
+{
+	background:url("../bgg.jpg");
+	background-position:fixed;
+	
+	
+	
+}
+.gg button{
+	text-decoration:none;
+}
+@media only screen and ( max-width : 800px ){
+	.article{
+	margin-top:43px;
+	
+}
+}
